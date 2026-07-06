@@ -1,5 +1,5 @@
 {
-    "buildCommand": "hugo --gc --minify --buildFuture",
-    "installCommand": "ls -la",
-    "framework": "hugo"
+    "buildCommand": "git submodule update --init --recursive && hugo --gc --minify",
+    "outputDirectory": "public",
+    "installCommand": "curl -L https://github.com/gohugoio/hugo/releases/download/v0.147.8/hugo_extended_0.147.8_linux-amd64.tar.gz | tar -xz && mv hugo /usr/local/bin/"
 }
