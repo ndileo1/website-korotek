@@ -1,0 +1,23 @@
+<footer class="site-footer custom-footer">
+  <!-- Rangée unique : Logo + Profil + Contacts -->
+  <div class="footer-container">
+    <!-- Logo Korotek -->
+    <div class="footer-branding">
+      <a href="{{ .Site.BaseURL }}">
+        <img src="{{ "images/logo.png" | relURL }}" alt="Korotek Logo" class="footer-logo" />
+      </a>
+    </div>
+
+
+
+    <!-- Contacts / Mail & Phone -->
+    <div class="footer-contacts">
+      {{ range .Site.Params.contacts }}
+        <a href="{{ .url | safeURL }}" class="footer-contact-item">
+          <i class="{{ .icon }}"></i>
+          <span>{{ .value }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+</footer>

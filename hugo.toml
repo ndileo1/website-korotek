@@ -9,7 +9,7 @@ defaultContentLanguage = "en"
 theme = "hugo-scroll"
 
 # The browser tab name
-title = "Jane Doe - Nutrition Coach & Chef Consultant"
+title = "Korotek - Dépannage Cuisine Professionnelle"
 
 # In order to add version information in the page's footer set to true.
 # enableGitInfo = true
@@ -44,15 +44,7 @@ enableEmoji = true
     description = "Nutrition Coach & Chef Consultant"
 
     # Show a menu of languages available
-    language_menu = true
-
-    # Show also a language menu item for the current language, if false only
-    # show the remaining languages
-    show_current_lang = true
-
-    # A "copyright"-line to be added at the bottom of the page.
-    # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
-    copyright = "© Jane Doe"
+    language_menu = false
 
     # This theme will, by default, inject a design-by-line at the bottom of the page.
     # You can turn it off, but we would really appreciate if you don’t :-)
@@ -70,7 +62,7 @@ enableEmoji = true
 
     [params.footer]
     # Show contact icons for email/phone (if specified) in the footer of the page
-    showContactIcons = false
+    showContactIcons = true
 
     # Show links indicated with footer_menu and footer_menu_title in the footer of the page
     showFooterLinks = false
@@ -80,21 +72,21 @@ enableEmoji = true
 
     [[params.contacts]]
         label = "phone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
+        value = "+352 661 87 29 18"
+        url = "tel:+352 661 87 29 18"
         icon = "fa fa-phone"
 
     [[params.contacts]]
         label = "email"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        value = "info@korotek.lu"
+        url = "mailto:info@korotek.lu"
         icon = "fa fa-envelope"
 
     [[params.contacts]]
-        label = "GitHub"
-        value = "github.com/zjedi/hugo-scroll"
-        url = "https://github.com/zjedi/hugo-scroll"
-        icon = "fa-brands fa-github"
+        label = "address"
+        value = "3 rue de Turi 3378 Livange"
+        url = "https://maps.google.com/?q=3+rue+de+Turi+3378+Livange"
+        icon = "fa fa-map-marker"
 
     # Add additional contacts here!
     # [[params.contacts]]
@@ -103,15 +95,9 @@ enableEmoji = true
     #     url = ""
     #     icon = ""
 
-# Define additional languages
+# Language configuration (English only)
 [languages]
   [languages.en]
     weight = 10
     languageName = "English"
     contentDir = "content/en"
-
-  [languages.de]
-    title = "Erika Musterfrau - Ernährungshilfe & Kochberatung"
-    weight = 20
-    contentDir = "content/de"
-    languageName = "Deutsch"

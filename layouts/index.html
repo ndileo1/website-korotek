@@ -1,0 +1,36 @@
+{{ define "main" }}
+<header id="site-head" class="homepage-hero">
+    <div class="main-layout-container">
+        
+        <!-- Section Haut : 3 éléments -->
+        <div class="top-gallery">
+            <div class="gallery-item">
+                <img src="{{ "images/four.webp" | relURL }}" alt="Four" class="gallery-img" />
+            </div>
+            
+            <div class="gallery-item center-logo-block">
+                <img src="{{ "images/logo.png" | relURL }}" alt="Korotek Logo" class="brand-logo" />
+                <div class="headline-box">
+                    <h1 class="hero-title">Jean-Pierre DI LEO</h1>
+                    <h2 class="hero-subtitle"><b>Dépannage</b> Cuisine professionnelle</h2>
+                </div>
+            </div>
+
+            <div class="gallery-item">
+                <img src="{{ "images/piano.gif" | relURL }}" alt="Piano" class="gallery-img" />
+            </div>
+        </div>
+
+        <!-- Section Bas : Bio -->
+        <div class="bottom-bio">
+            <img src="{{ "images/photo-jp.jpeg" | relURL }}" alt="Jean-Pierre Di Leo" class="bio-photo" />
+            <div class="bio-text-content">
+                <p>Je suis <b>Jean-Pierre DI LEO</b>. Fort de <b>25 ans d'expérience</b>, je mets mon <b>savoir-faire à votre service</b> pour la réparation de tout votre matériel de cuisine.</p>
+                <p>Je m'engage à vous fournir un travail <b>rapide, précis et honnête</b>.</p>
+                <p>Mes services s'adresse à <b>tous les professionnels de la restauration</b> : hôtels, collectivités, administrations, restaurants, boucherie, boulangeries, ...</p>
+            </div>
+        </div>
+
+    </div>
+</header>
+{{ end }}

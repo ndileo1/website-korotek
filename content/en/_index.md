@@ -6,7 +6,8 @@ header_image: "images/cover.jpg"
 header_use_video: false
 #
 # Optional header logo. CSS: `#blog-logo`, with max-height defined, optimize to prevent scaling
-header_logo: "images/logo-korotek.jpeg"
+# header_logo: "images/logo-korotek.jpeg"
+header_logo: "images/logo-sans-background.jpg"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
 header_headline: "Jean Pierre Di Leo"
