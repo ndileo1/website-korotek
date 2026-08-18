@@ -159,8 +159,9 @@ html, body {
 /* Mode Téléphone (Mobile Layout) */
 @media (max-width: 900px) {
     .homepage-hero {
-        padding: 2rem 1.2rem 4rem 1.2rem;
+        padding: 2rem 1.2rem 2rem 1.2rem;
         min-height: auto;
+        display: block;
     }
 
     .main-layout-container {
@@ -194,16 +195,11 @@ html, body {
     .hero-subtitle {
         font-size: 1.6rem;
     }
-
-    .site-footer.custom-footer {
-        position: relative !important;
-        box-shadow: none;
-    }
 }
 
 /* Footer toujours visible en bas de page */
 .site-footer.custom-footer {
-    position: fixed;
+    position: sticky;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -336,9 +332,6 @@ body {
     }
     .footer-subtitle {
         display: none;
-    }
-    body {
-        padding-bottom: 0;
     }
 }
 </style>
