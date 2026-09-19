@@ -5,7 +5,6 @@ disableKinds = ["section", "taxonomy", "term", "RSS"]
 
 defaultContentLanguage = "en"
 
-# The name of this wonderful theme ;-).
 theme = "hugo-scroll"
 
 # The browser tab name
@@ -68,7 +67,7 @@ enableEmoji = true
     showFooterLinks = false
 
     [params.meta]
-        keywords = "korotek, luxembourg, dépannage, cuisine professionnelle, réparation, équipement CHR, restauration, maintenance, livange"
+        keywords = "korotek, luxembourg, jean-pierre, jean, pierre, dileo, jean-pierre dileo, jean-pierre di leo, dépannage, cuisine professionnelle, réparation, équipement CHR, restauration, maintenance, livange"
 
     [[params.contacts]]
         label = "phone"
